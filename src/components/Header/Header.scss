@@ -7,3 +7,24 @@
   font-size: 12px;
   letter-spacing: 1.5px;
 }
+
+.applyButton {
+  background-color: #2AA2F7;
+  color: #FFFFF;
+  line-height: 40px;
+  padding: 5px 15px 7px 15px;
+  border-radius: 10px;
+  font-size: 11px;
+  color: #D8D8D8;
+}
+
+.applyButton:hover, .applyButton:visited, .applyButton:link, .applyButton:active {
+  color: #D8D8D8;
+  text-decoration: none;
+}
+
+@media (max-width: 767px)  {
+  .applyButton {
+    display: none;
+  }
+}
