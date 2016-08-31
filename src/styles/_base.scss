@@ -1,42 +1,6 @@
-/*
-Application Settings Go Here
-------------------------------------
-This file acts as a bundler for all variables/mixins/themes, so they
-can easily be swapped out without `core.scss` ever having to know.
+@import './navbar';
 
-For example:
-
-@import './variables/colors';
-@import './variables/components';
-@import './themes/default';
-*/
-
-.navbar-inverse {
-  background-color: #FFFFFF;
-  border-color: #FFFFFF;
-}
-
-.navbar-inverse .navbar-nav > li > a {
-  margin-left: 25px;
-  margin-right: 25px;
-  color: #000000;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover, 
-navbar-inverse .navbar-nav > li > a:visited,
-.navbar-inverse .navbar-nav > li > a:link,
-.navbar-inverse .navbar-nav > li > a:active {
-  color: #000000;
-}
-
-.navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #000000;
-}
-
-.navbar-inverse .navbar-toggle {
-  background-color: #FFFFFF;
-}
-
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-  background-color: #FFFFFF;
-}
+$applyGray: #D8D8D8;
+$applyBlue: #2AA2F7;
+$aboutBlack: #4A4A4A;
+$headerGray: #CDCCCE;

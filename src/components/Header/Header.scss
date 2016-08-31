@@ -1,25 +1,27 @@
+@import 'src/styles/base';
+
 .activeRoute {
   font-weight: bold;
   text-decoration: underline;
 }
 
 .navItem {
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 1.5px;
 }
 
 .applyButton {
-  background-color: #2AA2F7;
+  background-color: $applyBlue;
   color: #FFFFF;
-  line-height: 40px;
+  line-height: 45px;
   padding: 5px 15px 7px 15px;
   border-radius: 10px;
-  font-size: 11px;
-  color: #D8D8D8;
+  font-size: 10px;
+  color: $applyGray;
 }
 
 .applyButton:hover, .applyButton:visited, .applyButton:link, .applyButton:active {
-  color: #D8D8D8;
+  color: $applyGray;
   text-decoration: none;
 }
 
