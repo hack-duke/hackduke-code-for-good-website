@@ -1,0 +1,56 @@
+@import 'src/styles/base';
+
+
+.hero {
+	height: 100vh;
+	background-size: cover;
+	background-image: url('static/hackduke-background.png');
+	background-repeat: no-repeat;
+}
+
+.mainText {
+	height: auto;
+    margin: auto;
+    position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.hero h1 {
+	line-height: 1em;
+	color: white;
+	font-size: 10vh;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.hero h5 {
+	line-height: 1.56em;
+	color: white;
+	font-size: 2.5vh;
+	letter-spacing: 0.75vh;
+	margin-right: -0.75vh;
+	text-align: center;
+}
+
+.hero h6 {
+	color: white;
+	line-height: 1.5em;
+	padding: 0.75em 0 0 0;
+	font-size: 2vh;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.homeButton {
+	font-size: 2vh;
+	color: white;
+	background-color: $applyBlue;
+	border: 2px solid $applyBlue;
+	border-radius: 2.85vh;
+	width: 17.5vh;
+	height: 5vh;
+	margin: 0 auto;
+	display: block;
+}
