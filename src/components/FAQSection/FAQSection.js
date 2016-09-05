@@ -16,11 +16,6 @@ export const FAQSection = (props) => (
         </div>
         
       </Col>
-      // <Col md={8}>
-      //   <div className={classes.sectionText}>
-      //     {props.text}
-      //   </div>
-      // </Col>
     </Row>
   </div>
 )
