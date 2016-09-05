@@ -16,17 +16,19 @@
 	margin: 0 2vw;
 	color: #4A4A4A;
 	text-align: center;
+	padding: 20px 30px;
+	font-family: "Montserrat", sans-serif;
 }
 
 .paragraph > div {
 	clear: both;
 }
 
-.paragraph > p, .heading > p {
-	padding: 2vw 4vw;
+.paragraph > p{
+	padding: 40px 30px;
 }
 
-.paragraph > button {
+/*.paragraph > button {
 	font-size: 2vh;
 	color: white;
 	background-color: $applyBlue;
@@ -36,4 +38,22 @@
 	height: 5vh;
 	float: right;
 	margin: 0 4vw 3vw 0;
+}*/
+
+@media only screen and (min-width: 768px) {
+	.paragraph > p {
+		padding: 4vw 4vw;
+	}
+
+	.heading > p {
+		padding: 2vw 4vw;
+	}
 }
+
+/*@media only screen and (min-width: 1280px) {
+  .paragraph > button {
+		border-radius: 2.85vh;
+		width: 17.5vh;
+		height: 5vh;
+  }
+}*/

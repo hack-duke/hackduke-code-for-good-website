@@ -4,13 +4,13 @@ import classes from './FAQSection.scss'
 export const FAQSection = (props) => (
 
   <div>
-      <div className={classes.sectionHeader}>
-        {props.title}
-      </div>
+    <div className={classes.sectionHeader}>
+      {props.title}
+    </div>
 
-      <div className={classes.sectionText}>
-        {props.text}
-      </div>
+    <div className={classes.sectionText}>
+      {props.text}
+    </div>
   </div>
 )
 
