@@ -7,7 +7,7 @@ export const FAQ = () => (
   <div className={classes.FAQ}>
     <div className={'container text-center'}>
       <div className={classes.header}>
-        FAQs
+        FAQS
       </div>
       <Row>
         <Col md={4}>
