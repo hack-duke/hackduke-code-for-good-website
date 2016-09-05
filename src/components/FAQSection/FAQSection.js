@@ -10,12 +10,17 @@ export const FAQSection = (props) => (
         <div className={classes.sectionHeader}>
           {props.title}
         </div>
-      </Col>
-      <Col sm={4}>
+
         <div className={classes.sectionText}>
           {props.text}
         </div>
+        
       </Col>
+      // <Col md={8}>
+      //   <div className={classes.sectionText}>
+      //     {props.text}
+      //   </div>
+      // </Col>
     </Row>
   </div>
 )
