@@ -11,7 +11,7 @@ export const FAQSection = (props) => (
           {props.title}
         </div>
       </Col>
-      <Col md={8}>
+      <Col sm={4}>
         <div className={classes.sectionText}>
           {props.text}
         </div>
