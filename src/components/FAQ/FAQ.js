@@ -6,23 +6,24 @@ export const FAQ = () => (
   <div className={classes.FAQ}>
     <div className={'container text-center'}>
       <div className={classes.header}>
-        HACKDUKE IS ABOUT
+        FAQs
       </div>
-      <FAQSection title={"COLLABORATION NOT COMPETITION."}
-        text={"HackDuke is not just about building meaningful projects. \
-              It's also an open forum to discuss, share and bring to life ideas \
-              that aim to make a positive impact on social issues. Look forward \
-              to working with experts from non-profits and coding alongside \
-              mentors from tech companies!"} />
-      <FAQSection title={"EXPLORING THE INTERSECTION BETWEEN TECH & SOCIAL GOOD."}
-        text={"HackDuke is not just FAQ building meaningful projects. \
-              It's also an open forum to discuss, share and bring to life ideas \
-              that aim to make a positive impact on social issues. Look forward \
-              to working with experts from non-profits and coding alongside \
-              mentors from tech companies!"} />
-      <FAQSection title={"GIVING BACK."}
-        text={"HackDuke encourages students to venture beyond the classroom. \
-               Learn how your skills can be used to make a difference other people’s lives."} />
+      <FAQSection title={"How can I help? I want to volunteer!"}
+        text={"If you're a Duke student and you want to help  \
+              out day of, please fill out this form! If you aren't,  \
+              please put your email in the netID section. You'll  \
+              get a free hack kitty t-shirt. :D"} />
+      <FAQSection title={"Prizes?"}
+        text={"Yes, but there's a little twist! The grand prizes  \
+              are donations under your name to charities and  \
+              causes! There will be grand prize winners for  \
+              each track, novice track and many other  \
+              company sponsored API prizes as well. Check \
+              the prizes page for more info!"} />
+      <FAQSection title={"Travel?"}
+        text={"Anyone from across the nation is welcome to  \
+               come! We will be providing buses for certain \
+               universities."} />
     </div>
   </div>
 )
