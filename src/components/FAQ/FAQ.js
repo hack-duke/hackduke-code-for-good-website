@@ -52,7 +52,7 @@ export const FAQ = () => (
                   and our experts!"} />
           <FAQSection title={"When? Where?"}
             text={"HackDuke is on Saturday, November 13th to   \
-                  Sunday, November 8th. It is hosted on Duke   \
+                  Sunday, November 14th. It is hosted on Duke   \
                   University's West Campus, CIEMAS. More   \
                   information about travel and parking can be   \
                   found here."} />
