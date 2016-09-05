@@ -24,6 +24,38 @@ export const FAQ = () => (
         text={"Anyone from across the nation is welcome to  \
                come! We will be providing buses for certain \
                universities."} />
+       <FAQSection title={"How can I help? I want to volunteer!"}
+         text={"If you're a Duke student and you want to help  \
+               out day of, please fill out this form! If you aren't,  \
+               please put your email in the netID section. You'll  \
+               get a free hack kitty t-shirt. :D"} />
+       <FAQSection title={"Prizes?"}
+         text={"Yes, but there's a little twist! The grand prizes  \
+               are donations under your name to charities and  \
+               causes! There will be grand prize winners for  \
+               each track, novice track and many other  \
+               company sponsored API prizes as well. Check \
+               the prizes page for more info!"} />
+       <FAQSection title={"Travel?"}
+         text={"Anyone from across the nation is welcome to  \
+                come! We will be providing buses for certain \
+                universities."} />
+        <FAQSection title={"How can I help? I want to volunteer!"}
+          text={"If you're a Duke student and you want to help  \
+                out day of, please fill out this form! If you aren't,  \
+                please put your email in the netID section. You'll  \
+                get a free hack kitty t-shirt. :D"} />
+        <FAQSection title={"Prizes?"}
+          text={"Yes, but there's a little twist! The grand prizes  \
+                are donations under your name to charities and  \
+                causes! There will be grand prize winners for  \
+                each track, novice track and many other  \
+                company sponsored API prizes as well. Check \
+                the prizes page for more info!"} />
+        <FAQSection title={"Travel?"}
+          text={"Anyone from across the nation is welcome to  \
+                 come! We will be providing buses for certain \
+                 universities."} />
     </div>
   </div>
 )

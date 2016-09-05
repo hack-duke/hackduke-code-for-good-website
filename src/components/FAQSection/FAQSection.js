@@ -10,11 +10,9 @@ export const FAQSection = (props) => (
         <div className={classes.sectionHeader}>
           {props.title}
         </div>
-
         <div className={classes.sectionText}>
           {props.text}
         </div>
-        
       </Col>
     </Row>
   </div>
