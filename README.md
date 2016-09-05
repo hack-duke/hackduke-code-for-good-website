@@ -16,3 +16,4 @@ If everything works, you should see the following:
 
 <img src="http://i.imgur.com/zR7VRG6.png?2" />
 
+You can now go to your favorite web browser and type in `localhost:3000` and see the site. 
