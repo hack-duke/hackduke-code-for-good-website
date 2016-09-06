@@ -13,7 +13,7 @@
   padding: 0 0 20px 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tabletBreakpoint) {
 
   .about {
     padding: 100px 0;
@@ -26,7 +26,7 @@
 
 }
 
-@media (min-width: 1280px) {
+@media (min-width: $desktopBreakpoint) {
 
   .header {
     font-size: 5.5em;

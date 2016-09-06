@@ -21,7 +21,7 @@
   font-size: 1em;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tabletBreakpoint) {
 
   .sectionHeader {
     text-align: center;
@@ -34,7 +34,7 @@
 
 }
 
-@media (min-width: 1024px) {
+@media (min-width: $desktopBreakpoint) {
 
   .section {
     padding-top: 50px;

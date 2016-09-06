@@ -1,3 +1,4 @@
+@import 'src/styles/base';
 
 .container {
 	width: 100vw;
@@ -44,7 +45,7 @@
 
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
 	
 	.container {
 		width: 100vw;
