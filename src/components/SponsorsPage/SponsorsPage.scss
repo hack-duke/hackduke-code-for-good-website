@@ -1,0 +1,58 @@
+@import 'src/styles/base';
+
+.sponsors {
+	width: 100vw;
+	height: 100%;
+	background-size: 100% 100%;
+	background-color: #F0F0F0;
+	background-repeat: no-repeat;
+}
+
+.header {
+  color: #555459;
+  letter-spacing: 5px;
+  font-size: 48px;
+  padding: 40px 0 0 0;
+}
+
+.homeButton {
+	font-size: 2vh;
+	color: white;
+	background-color: $applyBlue;
+	border: 2px solid $applyBlue;
+	border-radius: 2.85vh;
+	width: 20vh;
+	height: 5vh;
+	margin: 0 auto;
+	display: block;
+}
+
+.section {
+	padding-top: 50px;
+}
+
+.logobox {
+	padding: 50px 10vw 50px 10vw;
+	width: 70vw;
+	margin: 0 auto;
+	background-size: 100% 100%;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+}
+
+.sponsorsText {
+	padding-left: 25vw;
+	padding-right: 25vw;
+}
+
+@media (max-width: 1024px) {
+	.sponsorsText {
+		padding-left: 0;
+		padding-right: 0;
+		text-align: left;
+	}
+
+	.logobox {
+		width: 100%;
+	}
+}

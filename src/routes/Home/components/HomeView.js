@@ -4,6 +4,7 @@ import Hero from 'components/Hero'
 import TracksPage from 'components/TracksPage'
 import About from 'components/About'
 import FAQ from 'components/FAQ'
+import SponsorsPage from 'components/SponsorsPage'
 
 export const HomeView = () => (
   <div>
@@ -11,6 +12,7 @@ export const HomeView = () => (
     <About />
     <TracksPage />
     <FAQ />
+    <SponsorsPage />
   </div>
 )
 

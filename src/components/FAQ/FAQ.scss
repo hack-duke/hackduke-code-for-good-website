@@ -1,12 +1,13 @@
 @import 'src/styles/base';
 
-.about {
-	padding: 100px 0;
+.faq {
+  padding: 50px 15px;
 }
 
-.header {
-  color: $headerGray;
-  letter-spacing: 5px;
-  font-size: 48px;
-  padding: 5vw 0 40px 0;
+@media (min-width: $tabletBreakpoint) {
+
+  .faq {
+    padding: 70px 15%;
+  }
+
 }

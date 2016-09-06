@@ -4,7 +4,7 @@ import classes from './Header.scss'
 
 export const Header = () => (
   <div>
-    <Navbar inverse fixedtop>
+    <Navbar inverse>
       <Navbar.Header>
         <Navbar.Brand>
         </Navbar.Brand>

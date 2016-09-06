@@ -11,11 +11,12 @@
   html,
   body {
     margin: 0;
+    overflow-x: hidden;
     padding: 0;
     height: 100%;
     font-family: "Avenir Next", sans-serif;
   }
-
+  
   *,
   *:before,
   *:after {

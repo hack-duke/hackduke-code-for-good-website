@@ -1,10 +1,11 @@
 import React from 'react'
-import classes from './FAQSection.scss'
+import classes from '../AboutSection/AboutSection.scss'
+import faqclasses from './FAQSection.scss'
 
 export const FAQSection = (props) => (
 
-  <div>
-    <div className={classes.sectionHeader}>
+  <div className={faqclasses.section}>
+    <div className={classes.sectionHeader} style={{'text-align': 'left'}}>
       {props.title}
     </div>
 
