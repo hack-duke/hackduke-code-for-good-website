@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero {
-	height: 100vh;
+	height: calc(100vh - 50px); /*50px is navBar height*/
 	background-image: url('static/landing.png');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;

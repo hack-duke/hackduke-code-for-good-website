@@ -24,21 +24,22 @@
 .tracksText {
 	color: white;
 	line-height: 2em;
-	margin: 0 auto;
-	width: 80%;
+	margin: 0 15px;
 	padding: 2em 0 0 0;
-	text-align: center;
+	text-align: left;
 }
 
 @media (min-width: 768px) {
 
 	.tracksHeader {
-		font-size: 10vh;
+		font-size: 72px;
 	}
 
 	.tracksText {
 		width: 55%;
 		padding: 3em 0 0 0;
+		margin: 0 auto;
+		text-align: center;
 	}
 
 }
@@ -51,11 +52,11 @@
 	}
 	
 	.tracks {
-		padding: 20vh 0 20vh 0;
+		padding: 100px 0;
 	}
 
 	.tracksHeader {
-		font-size: 10vh;
+		font-size: 5.5em;
 	}
 
 	.tracksText {

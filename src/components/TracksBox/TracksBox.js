@@ -9,6 +9,7 @@ export const TracksBox = (props) => (
     </div>
     <div className={classes.paragraph}>
       <p>{props.text}</p>
+      <button>Learn More</button>
       <div />
     </div>
   </div>

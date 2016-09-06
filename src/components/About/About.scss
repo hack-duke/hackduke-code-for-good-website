@@ -1,12 +1,35 @@
 @import 'src/styles/base';
 
 .about {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 .header {
+  font-family: "Montserrat";
+  text-align: center;
   color: $headerGray;
   letter-spacing: 5px;
   font-size: 48px;
-  padding: 0 0 40px 0;
+  padding: 0 0 20px 0;
+}
+
+@media (min-width: 768px) {
+
+  .about {
+    padding: 100px 0;
+  }
+
+  .header {
+    text-align: center;
+    font-size: 48px;
+  }
+
+}
+
+@media (min-width: 1280px) {
+
+  .header {
+    font-size: 5.5em;
+  }
+
 }

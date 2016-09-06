@@ -25,35 +25,44 @@
 }
 
 .paragraph > p{
-	padding: 40px 30px;
+	padding: 20px 30px;
 }
 
-/*.paragraph > button {
-	font-size: 2vh;
+.paragraph > button {
+	font-size: 1em;
 	color: white;
 	background-color: $applyBlue;
 	border: 2px solid $applyBlue;
-	border-radius: 2.85vh;
-	width: 17.5vh;
-	height: 5vh;
+	border-radius: 1.25em;
+	width: 8em;
+	height: 2.5em;
 	float: right;
-	margin: 0 4vw 3vw 0;
-}*/
+	margin: 0 30px 20px 0;
+}
 
 @media only screen and (min-width: 768px) {
 	.paragraph > p {
-		padding: 4vw 4vw;
+		padding: 2vw 4vw;
 	}
 
 	.heading > p {
 		padding: 2vw 4vw;
 	}
+
+  .paragraph > button {
+		margin: 0 4vw 3vw 0;
+  }
 }
 
-/*@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
+	.paragraph > p {
+		padding: 2vw 3vw;
+	}
+
   .paragraph > button {
 		border-radius: 2.85vh;
 		width: 17.5vh;
 		height: 5vh;
+		margin: 0 4vw 3vw 0;
   }
-}*/
+}
