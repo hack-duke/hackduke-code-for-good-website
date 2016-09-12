@@ -4,32 +4,33 @@ import webpack from 'webpack'
 import webpackConfig from '../build/webpack.config'
 import historyApiFallback from 'koa-connect-history-api-fallback'
 import serve from 'koa-static'
+import send from 'koa-send'
 import proxy from 'koa-proxy'
 import _debug from 'debug'
 import config from '../config'
 import webpackDevMiddleware from './middleware/webpack-dev'
 import webpackHMRMiddleware from './middleware/webpack-hmr'
+import enforceHttps from 'koa-sslify'
 
 const debug = _debug('app:server')
 const paths = config.utils_paths
+
+// Koa setup.
 const app = new Koa()
 
-// Enable koa-proxy if it has been enabled in the config.
-if (config.proxy && config.proxy.enabled) {
-  app.use(convert(proxy(config.proxy.options)))
-}
-
-// This rewrites all routes requests to the root /index.html file
-// (ignoring file requests). If you want to implement isomorphic
-// rendering, you'll want to remove this middleware.
-app.use(convert(historyApiFallback({
-  verbose: false
-})))
-
-// ------------------------------------
-// Apply Webpack HMR Middleware
-// ------------------------------------
 if (config.env === 'development') {
+  // Enable koa-proxy if it has been enabled in the config.
+  if (config.proxy && config.proxy.enabled) {
+    app.use(convert(proxy(config.proxy.options)))
+  }
+
+  // This rewrites all routes requests to the root /index.html file
+  // (ignoring file requests). If you want to implement isomorphic
+  // rendering, you'll want to remove this middleware.
+  app.use(convert(historyApiFallback({
+    verbose: false
+  })))
+
   const compiler = webpack(webpackConfig)
 
   // Enable webpack-dev and webpack-hot middleware
@@ -52,10 +53,11 @@ if (config.env === 'development') {
     'section in the README for more information on deployment strategies.'
   )
 
-  // Serving ~/dist by default. Ideally these files should be served by
-  // the web server and not the app server, but this helps to demo the
-  // server in production.
-  app.use(serve(paths.dist()))
+  app.use(enforceHttps({trustProtoHeader: true}))
+
+  app.use(async (ctx, next) => {
+    await send(ctx, ctx.path, { root: paths.dist(), index: 'index.html' })
+  })
 }
 
 export default app

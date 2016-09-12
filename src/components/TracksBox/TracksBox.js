@@ -1,6 +1,5 @@
 import React from 'react'
-// import BackgroundImage from '../assets/hackduke-background.png'
-import classes from './tracksbox.scss'
+import classes from './TracksBox.scss'
 
 export const TracksBox = (props) => (
   <div>
@@ -9,7 +8,9 @@ export const TracksBox = (props) => (
     </div>
     <div className={classes.paragraph}>
       <p>{props.text}</p>
-      <button>Learn More</button>
+      <a href={props.link} className={classes.link}>
+        <button className={classes.moreButton}> Learn More </button>
+      </a>
       <div />
     </div>
   </div>
@@ -17,7 +18,8 @@ export const TracksBox = (props) => (
 
 TracksBox.propTypes = {
   track: React.PropTypes.string.isRequired,
-  text: React.PropTypes.string.isRequired
+  text: React.PropTypes.string.isRequired,
+  link: React.PropTypes.string.isRequired
 }
 
 export default TracksBox

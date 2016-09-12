@@ -1,7 +1,6 @@
 import React from 'react'
-import TracksBox from 'components/tracksbox'
+import TracksBox from 'components/TracksBox'
 import {Grid, Row, Col} from 'react-bootstrap'
-// import BackgroundImage from '../assets/hackduke-background.png'
 import classes from './TracksGrid.scss'
 
 const dummySentences = ['Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
@@ -17,18 +16,26 @@ export const TracksGrid = () => (
       <Row className='show-grid'>
         <Col sm={6} md={6} className={classes.leftColumn}>
           <div className={classes.leftTracksBox}>
-            <TracksBox track={'INEQUALITY'} text={dummySentences.slice(0, 6).join(' ')} />
+            <TracksBox track={'INEQUALITY'}
+              link={'http://hackduke.tumblr.com/tagged/inequality'}
+              text={dummySentences.slice(0, 6).join(' ')} />
           </div>
           <div className={classes.leftTracksBox}>
-            <TracksBox track={"HEALTH & WELLNESS"} text={dummySentences.slice(0, 4).join(' ')} />
+            <TracksBox track={"HEALTH & WELLNESS"}
+              link={'http://hackduke.tumblr.com/tagged/health-&-wellness'}
+              text={dummySentences.slice(0, 4).join(' ')} />
           </div>
         </Col>
         <Col sm={6} md={6} className={classes.rightColumn}>
           <div className={classes.rightTracksBox}>
-            <TracksBox track={"ENERGY & ENVIRONMENT"} text={dummySentences.slice(0, 4).join(' ')} />
+            <TracksBox track={"ENERGY & ENVIRONMENT"}
+              link={'http://hackduke.tumblr.com/tagged/energy-&-environment'}
+              text={dummySentences.slice(0, 4).join(' ')} />
           </div>
           <div className={classes.rightTracksBox}>
-            <TracksBox track={"EDUCATION"} text={dummySentences.slice(0, 6).join(' ')} />
+            <TracksBox track={"EDUCATION"}
+              link={'http://hackduke.tumblr.com/tagged/education'}
+              text={dummySentences.slice(0, 6).join(' ')} />
           </div>
         </Col>
       </Row>

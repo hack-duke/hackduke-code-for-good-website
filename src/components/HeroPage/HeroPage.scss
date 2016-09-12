@@ -1,0 +1,61 @@
+@import 'src/styles/base';
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero {
+  /*50px is navBar height*/
+  margin-top: 50px;
+  height: calc(100vh - 50px);
+  background-image: url('static/landing.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.mainText {
+  height: auto;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+img {
+  display: block;
+  margin: auto;
+  height: 25vh;
+  width: 34.25vh;
+}
+
+.hero h6 {
+  color: white;
+  line-height: 1.5em;
+  padding: 1.5em 0 1em 0;
+  font-size: 2vh;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.homeButton {
+  font-size: 2vh;
+  color: white;
+  background-color: $applyBlue;
+  border: none;
+  padding: 0px;
+  border-radius: 2.85vh;
+  width: 20vh;
+  height: 5vh;
+  margin: 0 auto;
+  display: block;
+}
+
+.applyLink, .applyLink:hover, .applyLink:visited, .applyLink:link, .applyLink:active {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.homeButton:hover {
+  background-color: darken($applyBlue, 10%);
+}

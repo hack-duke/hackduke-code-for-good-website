@@ -12,8 +12,10 @@
     "compile": "better-npm-run compile",
     "lint": "eslint src tests server",
     "lint:fix": "npm run lint -- --fix",
-    "start": "better-npm-run start",
+    "start": "better-npm-run start:prod",
+    "serve": "better-npm-run start",
     "dev": "better-npm-run dev",
+    "postinstall": "npm run deploy:prod",
     "dev:no-debug": "npm run dev -- --no_debug",
     "test": "better-npm-run test",
     "test:dev": "npm run test -- --watch",
@@ -62,6 +64,12 @@
         "DEBUG": "app:*"
       }
     },
+    "start:prod": {
+      "command": "babel-node bin/server",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
     "test": {
       "command": "babel-node ./node_modules/karma/bin/karma start build/karma.conf",
       "env": {
@@ -103,6 +111,8 @@
     "koa-connect-history-api-fallback": "^0.3.0",
     "koa-convert": "^1.2.0",
     "koa-proxy": "^0.6.0",
+    "koa-send": "^3.2.0",
+    "koa-sslify": "^1.1.0",
     "koa-static": "^3.0.0",
     "node-sass": "^3.7.0",
     "normalize.css": "^4.1.1",
@@ -110,6 +120,7 @@
     "react": "^15.0.0",
     "react-bootstrap": "^0.30.3",
     "react-dom": "^15.0.0",
+    "react-fontawesome": "^1.1.0",
     "react-redux": "^4.0.0",
     "react-router": "^2.2.0",
     "react-router-redux": "^4.0.0",

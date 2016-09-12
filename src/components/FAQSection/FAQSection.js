@@ -5,11 +5,11 @@ import faqclasses from './FAQSection.scss'
 export const FAQSection = (props) => (
 
   <div className={faqclasses.section}>
-    <div className={classes.sectionHeader} style={{'text-align': 'left'}}>
+    <div className={classes.sectionHeader} style={{'textAlign': 'left'}}>
       {props.title}
     </div>
 
-    <div className={classes.sectionText}>
+    <div className={faqclasses.sectionText}>
       {props.text}
     </div>
   </div>

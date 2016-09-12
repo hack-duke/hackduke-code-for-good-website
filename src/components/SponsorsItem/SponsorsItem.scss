@@ -3,6 +3,17 @@
 .imageBox {
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 180px;
-  height: 100px;
+  width: 250px;
+  height: 125px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.image {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  transform: translateY(-50%);
+  margin-right: 5px;
 }
