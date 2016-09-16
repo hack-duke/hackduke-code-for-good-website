@@ -8,11 +8,10 @@ export const TracksPage = () => (
       <div className={classes.tracks}>
         <h1 className={classes.tracksHeader}>TRACKS</h1>
         <p className={classes.tracksText}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          HackDuke emphasizes its commitment to social good through four
+          unique project tracks. Tracks enable members to collaborate while
+          providing an alleyway to partnership with peers, local organizations,
+          nonprofits and universities to continue working towards the cause.
         </p>
         <TracksGrid />
       </div>

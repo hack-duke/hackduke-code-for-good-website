@@ -90,17 +90,18 @@ class SponsorsPage extends React.Component {
     )
   }
 
+// <p className={classes.sponsorsText}>
+//   {this.state.aboutText}
+// </p>
+
   render () {
     return (
       <div>
         <div className={classes.sponsors}>
           <div>
             <h1 className={classes.header}>{this.state.title}</h1>
-            <p className={classes.sponsorsText}>
-              {this.state.aboutText}
-            </p>
             <br />
-            <a className={classes.link} href={'http://www.google.com'}>
+            <a className={classes.link} href={'mailto:sponsorship@hackduke.org'}>
               <button className={classes.homeButton}> {this.state.sponsorButtonText} </button>
             </a>
             <div className={classes.section}>

@@ -2,6 +2,10 @@ import React from 'react'
 import { Navbar, Nav, NavItem } from 'react-bootstrap'
 import classes from './Header.scss'
 
+// <Nav pullRight>
+//   <a className={classes.applyButton} eventKey={1} href={'http://www.google.com'}>Apply Now </a>
+// </Nav>
+
 export const Header = () => (
   <div>
     <Navbar inverse fixedTop>
@@ -16,9 +20,6 @@ export const Header = () => (
           <NavItem className={classes.navItem} eventKey={2} href={'#tracks'}>TRACKS</NavItem>
           <NavItem className={classes.navItem} eventKey={3} href={'#faq'}>FAQS</NavItem>
           <NavItem className={classes.navItem} eventKey={4} href={'#sponsors'}>SPONSORS</NavItem>
-        </Nav>
-        <Nav pullRight>
-          <a className={classes.applyButton} eventKey={1} href={'http://www.google.com'}>Apply Now </a>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
