@@ -9,13 +9,13 @@
 }
 
 .tracks {
-	padding: 50px 0 50px 0;
+	padding: 75px 0;
 }
 
 .tracksHeader {
 	line-height: 1em;
 	color: white;
-	font-size: 64px;
+	font-size: $headerSmall;
 	letter-spacing: 5px;
 	margin: 0;
 	padding: 0;
@@ -25,44 +25,38 @@
 .tracksText {
 	color: white;
 	line-height: 2em;
-	margin: 0 15px;
-	padding: 2em 0 0 0;
+	margin: 0 12vw;
+	padding: 50px 0 0 0;
 	text-align: left;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tabletBreakpoint) {
 
 	.tracksHeader {
-		font-size: 72px;
+		font-size: $headerSmall;
 	}
 
 	.tracksText {
 		width: 55%;
-		padding: 3em 0 0 0;
 		margin: 0 auto;
 		text-align: center;
 	}
 
 }
 
-@media (min-width: 1024px) {
+@media (min-width: $desktopBreakpoint) {
 	
 	.container {
 		width: 100vw;
 		height: 100%;
 	}
-	
-	.tracks {
-		padding: 100px 0;
-	}
 
 	.tracksHeader {
-		font-size: 5.5em;
+		font-size: $headerBig;
 	}
 
 	.tracksText {
 		width: 40%;
-		padding: 3em 0 0 0;
 	}
 
 }

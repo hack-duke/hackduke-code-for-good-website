@@ -1,0 +1,30 @@
+@import 'src/styles/base';
+
+.contact {
+  background-color: $footerBlack;
+  height: 200px;
+  text-align: center;
+}
+
+.contactContainer {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.footerIcon, .footerIcon:visited, .footerIcon:link, .footerIcon:active {
+  cursor: pointer;
+  padding: 20px; 
+  color: #FFFFFF;
+  font-size: 2em;
+}
+
+.footerIcon:hover {
+  color: $applyBlue;
+}
+
+.copyright {
+  padding-top: 30px;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}

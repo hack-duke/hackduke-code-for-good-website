@@ -1,7 +1,7 @@
 @import 'src/styles/base';
 
 .about {
-	padding: 50px 0;
+	padding: 75px 0;
 }
 
 .header {
@@ -9,19 +9,15 @@
   text-align: center;
   color: $headerGray;
   letter-spacing: 5px;
-  font-size: 48px;
-  padding: 0 0 20px 0;
+  font-size: $headerSmall;
+  margin: 0;
 }
 
 @media (min-width: $tabletBreakpoint) {
 
-  .about {
-    padding: 100px 0;
-  }
-
   .header {
     text-align: center;
-    font-size: 48px;
+    font-size: $headerSmall;
   }
 
 }
@@ -29,7 +25,7 @@
 @media (min-width: $desktopBreakpoint) {
 
   .header {
-    font-size: 5.5em;
+    font-size: $headerBig;
   }
 
 }

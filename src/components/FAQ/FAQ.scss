@@ -1,13 +1,13 @@
 @import 'src/styles/base';
 
 .faq {
-  padding: 50px 15px;
+  padding: 75px 10%;
 }
 
-@media (min-width: $tabletBreakpoint) {
+@media (max-width: $tabletBreakpoint) {
 
   .faq {
-    padding: 70px 15%;
+    padding: 75px 15px;
   }
 
 }

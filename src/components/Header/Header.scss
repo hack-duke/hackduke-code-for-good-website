@@ -11,21 +11,26 @@
 }
 
 .applyButton {
+  cursor: pointer;
   background-color: $applyBlue;
   color: #FFFFF;
-  line-height: 45px;
-  padding: 5px 15px 7px 15px;
+  line-height: 48px;
+  padding: 5px 15px 5px 15px;
   border-radius: 10px;
   font-size: 10px;
-  color: $applyGray;
+  color: #FFFFFF;
+}
+
+.applyButton:hover {
+  background-color: darken($applyBlue, 10%);
 }
 
 .applyButton:hover, .applyButton:visited, .applyButton:link, .applyButton:active {
-  color: $applyGray;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
-@media (max-width: 767px)  {
+@media (max-width: $tabletBreakpoint)  {
   .applyButton {
     display: none;
   }

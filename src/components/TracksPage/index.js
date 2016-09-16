@@ -1,3 +1,3 @@
-import TracksPage from './trackspage'
+import TracksPage from './TracksPage'
 
 export default TracksPage

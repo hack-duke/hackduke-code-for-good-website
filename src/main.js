@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import createBrowserHistory from 'history/lib/createBrowserHistory'
 import { useRouterHistory } from 'react-router'
-import { syncHistoryWithStore } from 'react-router-redux'
+import { syncHistoryWithStore, push } from 'react-router-redux'
 import createStore from './store/createStore'
 import AppContainer from './containers/AppContainer'
 
@@ -42,6 +42,10 @@ const MOUNT_NODE = document.getElementById('root')
 
 let render = () => {
   const routes = require('./routes/index').default(store)
+  const currRoute = store.getState().router.locationBeforeTransitions.pathname
+  if (currRoute === '/index.html') {
+    store.dispatch(push('/'))
+  }
 
   ReactDOM.render(
     <AppContainer

@@ -1,8 +1,14 @@
 @import 'src/styles/base';
 
+.link, .link:hover, .link:visited, .link:link, .link:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
 .sponsors {
 	width: 100vw;
 	height: 100%;
+	padding-bottom: 75px;
 	background-size: 100% 100%;
 	background-color: #F0F0F0;
 	background-repeat: no-repeat;
@@ -11,20 +17,24 @@
 .header {
   color: #555459;
   letter-spacing: 5px;
-  font-size: 48px;
-  padding: 40px 0 0 0;
+  font-size: $headerBig;
+  padding: 75px 0 50px 0;
+  margin: 0;
 }
 
 .homeButton {
-	font-size: 2vh;
+	padding: 0px;
+	font-size: 1em;
 	color: white;
 	background-color: $applyBlue;
-	border: 2px solid $applyBlue;
-	border-radius: 2.85vh;
-	width: 20vh;
-	height: 5vh;
-	margin: 0 auto;
-	display: block;
+	border: none;
+	border-radius: 1.25em;
+	width: 8em;
+	height: 2.5em;
+}
+
+.homeButton:hover {
+  background-color: darken($applyBlue, 10%);
 }
 
 .section {
@@ -32,8 +42,8 @@
 }
 
 .logobox {
-	padding: 50px 10vw 50px 10vw;
-	width: 70vw;
+	padding: 100px 5vw 0px 5vw;
+	width: 80vw;
 	margin: 0 auto;
 	background-size: 100% 100%;
 	background-color: #FFFFFF;
@@ -45,14 +55,19 @@
 	padding-right: 25vw;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: $desktopBreakpoint) {
 	.sponsorsText {
 		padding-left: 0;
 		padding-right: 0;
 		text-align: left;
 	}
 
+	.header {
+		font-size: $headerSmall;
+	}
+
 	.logobox {
+		padding-top: 75px;
 		width: 100%;
 	}
 }

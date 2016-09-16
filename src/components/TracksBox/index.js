@@ -1,3 +1,3 @@
-import TracksBox from './tracksbox'
+import TracksBox from './TracksBox'
 
 export default TracksBox

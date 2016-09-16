@@ -4,7 +4,7 @@ import classes from './Header.scss'
 
 export const Header = () => (
   <div>
-    <Navbar inverse>
+    <Navbar inverse fixedTop>
       <Navbar.Header>
         <Navbar.Brand>
         </Navbar.Brand>
@@ -12,13 +12,13 @@ export const Header = () => (
       </Navbar.Header>
       <Navbar.Collapse>
         <Nav>
-          <NavItem className={classes.navItem} eventKey={1} href={"#"}>ABOUT</NavItem>
-          <NavItem className={classes.navItem} eventKey={2} href={"#"}>TRACKS</NavItem>
-          <NavItem className={classes.navItem} eventKey={3} href={"#"}>FAQS</NavItem>
-          <NavItem className={classes.navItem} eventKey={4} href={"#"}>SPONSORS</NavItem>
+          <NavItem className={classes.navItem} eventKey={1} href={'#about'}>ABOUT</NavItem>
+          <NavItem className={classes.navItem} eventKey={2} href={'#tracks'}>TRACKS</NavItem>
+          <NavItem className={classes.navItem} eventKey={3} href={'#faq'}>FAQS</NavItem>
+          <NavItem className={classes.navItem} eventKey={4} href={'#sponsors'}>SPONSORS</NavItem>
         </Nav>
         <Nav pullRight>
-          <a className={classes.applyButton} eventKey={1} href={"#"}>Apply Now </a>
+          <a className={classes.applyButton} eventKey={1} href={'http://www.google.com'}>Apply Now </a>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
