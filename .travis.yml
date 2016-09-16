@@ -1,21 +1,20 @@
 sudo: false
 language: node_js
 node_js:
-  - "6"
-
+- '6'
 cache:
   directories:
-    - node_modules
-
+  - node_modules
 install:
-  - npm install
-
+- npm install
 script:
-  - npm run lint
-  - npm run test
-  - NODE_ENV=development npm run deploy
-  - NODE_ENV=staging npm run deploy
-  - NODE_ENV=production npm run deploy
-
+- npm run lint
 after_success:
-  - npm run codecov
+- npm run codecov
+deploy:
+  provider: heroku
+  api_key:
+    secure: xEFCk2ajut+0mye2l9kRP8hD8Qxuy9CijHBKipNv1Rb00f04selWGC7BWht1Wi8B0Q1wBnY7LBykMGuU5bq8f7Doh+UzJmqb9TNvzItKnMrih2A+Bz/wS/+JTCn2sbGIK04Kc9T46hdSIs6S1mWX6+fDQYYRtvVEV6AGuouvgIwBJ+6St2pj3FlxD/PQRm7PgnapasZ2I3JZe19cf8kqa7fHn7EfzEEZrihVXaiE5Dc+qfEByO067Pr+9ehWt9GSObQWItbP1VOpbpUmPy5hAOJX9vgmSfCNH+ixFIuyk591c4NgyMtfPbmtAvGMj9GmgpdfOlnrG/Zj9cZjo3H94cE5Cyhgx01/dhCyuUw4IMzsP2WgkiwBJiklVs9CxjvEixOz5AAwnBBKBM/09cNCSDllOQpQuxE2NLX4OrqqOjJhGceLJrqGqzlT3uDigHj/VyQuoxanp81XJJ8QPmpe2RV3lm2FtmDjTNKwlD/EoU9RNv1nRBvaog++sSfCk3ZtYHbb4qNEn0fiauuEOljJxSxkYblTdSTB3Ujm1I2h/h2OSl4vvqaFrFke8+h4Q8lwU4nNAQuEIoJBsdgaTiiI2ovGwWsy46KTj02Rp0oSgBlnfw8U2EonHzgZxh2n9wrxFA6QfPjhL9CppzQ5ZdSuqrtc3Whk8U7IQaloPjmdMJ8=
+  app: hackduke-code-for-good-website
+  on:
+    repo: hack-duke/hackduke-code-for-good-website
