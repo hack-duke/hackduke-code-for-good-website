@@ -52,14 +52,29 @@
 	}
 
 	.heading > p {
-		padding: 2vw 1.5vw;
+		padding: 2vw 4vw;
 	}
 
 }
 
 @media (min-width: $desktopBreakpoint) {
 	.paragraph > p {
+		padding: 2vw 4vw;
+	}
+
+	.heading > p {
 		padding: 2vw 3vw;
+	}
+
+}
+
+@media (min-width: $bigDesktopBreakpoint) {
+	.paragraph > p {
+		padding: 2vw 3vw;
+	}
+	
+	.heading > p {
+		padding: 2vw 1.5vw;
 	}
 
 }
