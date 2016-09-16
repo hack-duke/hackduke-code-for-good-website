@@ -39,7 +39,7 @@ class SponsorsPage extends React.Component {
       imageUrls: [ibm, google, yikyak, esri, capitalone, fb, infusion, mbacsi, sqlsentry, engineyard,
       plaid, hackgt, cs, epic, att, colab, cerner, netapp, nicholas, cisco, particle],
       sizes: [3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1],
-      title: 'LAST YEAR\'S SPONSORS',
+      title: 'PAST SPONSORS',
       aboutText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed' +
                   'do eiusmod tempor incididunt ut labore et dolore magna aliqua',
       sponsorButtonText: 'Sponsor Us'
@@ -94,7 +94,7 @@ class SponsorsPage extends React.Component {
     return (
       <div>
         <div className={classes.sponsors}>
-          <div className={'container text-center'}>
+          <div>
             <h1 className={classes.header}>{this.state.title}</h1>
             <p className={classes.sponsorsText}>
               {this.state.aboutText}
