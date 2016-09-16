@@ -52,6 +52,10 @@ if (config.env === 'development') {
     'section in the README for more information on deployment strategies.'
   )
 
+  app.use(convert(historyApiFallback({
+    verbose: false
+  })))
+
   app.use(async (ctx, next) => {
     await send(ctx, ctx.path, { root: paths.dist(), index: 'index.html' })
   })
