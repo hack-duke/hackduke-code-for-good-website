@@ -1,7 +1,7 @@
 @import 'src/styles/base';
 
 .container {
-	width: 100vw;
+	width: 100%;
 	height: 100%;
 	background-size: 100% 100%;
 	background-image: url('static/tracks.png');
@@ -47,7 +47,7 @@
 @media (min-width: $desktopBreakpoint) {
 	
 	.container {
-		width: 100vw;
+		width: 100%;
 		height: 100%;
 	}
 
