@@ -3,7 +3,7 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap'
 import classes from './Header.scss'
 
 // <Nav pullRight>
-//   <a className={classes.applyButton} eventKey={1} href={'http://www.google.com'}>Apply Now </a>
+//   <a className={classes.applyButton} eventKey={1} href={'http://my.hackduke.org/login'}>Login</a>
 // </Nav>
 
 export const Header = () => (
