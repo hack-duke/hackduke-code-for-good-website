@@ -1,6 +1,6 @@
 .navbar-inverse {
-  background-color: #FFFFFF;
-  border-color: #FFFFFF;
+  background-color: #FFFFFF !important;
+  border-color: #FFFFFF !important;
   margin: 0;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-  background-color: #FFFFFF;
+  background-color: #FFFFFF !important;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
