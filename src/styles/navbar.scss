@@ -14,15 +14,15 @@
 .navbar-inverse .navbar-nav > li > a:link,
 .navbar-inverse .navbar-nav > li > a:hover, 
 .navbar-inverse .navbar-nav > li > a:active {
-  color: #000000;
+  color: #000000 !important;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #000000;
+  background-color: #000000 !important;
 }
 
 .navbar-inverse .navbar-toggle {
-  background-color: #FFFFFF;
+  background-color: #FFFFFF !important;
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
@@ -30,6 +30,6 @@
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-  border-color: #FFFFFF;
+  border-color: #FFFFFF !important;
   border: 0;
 }
