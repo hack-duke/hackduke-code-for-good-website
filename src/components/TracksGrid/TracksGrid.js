@@ -11,11 +11,12 @@ export const TracksGrid = () => (
           <div className={classes.leftTracksBox}>
             <TracksBox track={'INEQUALITY'}
               link={'http://hackduke.tumblr.com/tagged/inequality'}
-              text={'The Inequality track stresses projects that bridge \
-                    the gap between the affluent and poor, targeting disparities \
-                    in populations. This is an important aspect of social good \
-                    because it forms the backbone of ensuring that everyone has the \
-                    capacity to reach his or her full potential given the resources.'} />
+              text={'The Inequality track targets problems regarding \
+                    both social and economic inequality. Whether it is \
+                    creating solutions to bridge the gap between the affluent \
+                    and the poor, or finding ways to eliminate disparities in \
+                    gender or race, this track is built on the principle that \
+                    everyone should have the capacity to reach their full potential.'} />
           </div>
           <div className={classes.leftTracksBox}>
             <TracksBox track={"HEALTH & WELLNESS"}
