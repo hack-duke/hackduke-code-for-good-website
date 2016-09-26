@@ -1,19 +1,36 @@
 @import 'src/styles/base';
 
-.contact {
+.footerBackground {
   background-color: $footerBlack;
   height: 200px;
+}
+
+.contact {
   text-align: center;
 }
 
+.mlh {
+  position: absolute;
+  left: 5vw;
+  height: 1vh;
+}
+
+.mlhPartner {
+  padding-top: 50px;
+  position: absolute;
+  right: 5vw;
+  height: 2vh;
+}
+
 .contactContainer {
+  padding-left: 0;
   text-align: center;
   padding-top: 50px;
 }
 
 .footerIcon, .footerIcon:visited, .footerIcon:link, .footerIcon:active {
   cursor: pointer;
-  padding: 20px; 
+  padding: 20px;
   color: #FFFFFF;
   font-size: 2em;
 }
@@ -27,4 +44,17 @@
   font-size: 14px;
   color: #FFFFFF;
   letter-spacing: 1px;
+}
+
+
+@media (max-width: $tabletBreakpoint) {
+
+  .mlh {
+    display: none;
+  }
+
+  .mlhPartner {
+    display: none;
+  }
+
 }
