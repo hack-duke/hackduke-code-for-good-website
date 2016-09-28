@@ -1,5 +1,9 @@
 @import 'src/styles/base';
 
+@font-face {
+    font-family:'FontAwesome';src:url('https://static.hsappstatic.net/content_shared_assets/static-1.3779/fonts/fontawesome-webfont.eot?v=4.1.0');src:url('https://static.hsappstatic.net/content_shared_assets/static-1.3779/fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'),url('https://static.hsappstatic.net/content_shared_assets/static-1.3779/fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'),url('https://static.hsappstatic.net/content_shared_assets/static-1.3779/fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'),url('https://static.hsappstatic.net/content_shared_assets/static-1.3779/fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal
+}
+
 .footerBackground {
   background-color: $footerBlack;
   height: 200px;
@@ -36,7 +40,7 @@
 }
 
 .footerIcon:hover {
-  color: $applyBlue;
+  color: darken(#FFFFFF, 20%);
 }
 
 .copyright {
