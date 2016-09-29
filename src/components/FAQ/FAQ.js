@@ -27,8 +27,7 @@ export const FAQ = () => (
           <FAQSection title={'Who can participate?'}
             text={'You can participate as long as you\'re a student   \
                   (undergraduate or graduate)! If you\'re a new   \
-                  grad, we\'d love to have you too.  \
-                  If you want to be a mentor, see here!'} />
+                  grad, we\'d love to have you too.'} />
         </Col>
         <Col md={4}>
           <FAQSection title={'Who can I work with?'}
@@ -46,6 +45,11 @@ export const FAQ = () => (
                    have lab space for hardware hackers.'} />
         </Col>
         <Col md={4}>
+          <FAQSection title={'How can I help? I want to volunteer!'}
+            beforeText={'If you want to help out day of, please fill out this'}
+            afterText={'You\'ll get a free Hack Kitty t-shirt. :D'}
+            linkText={'form!'}
+            link={'https://hackduke.typeform.com/to/e7BfyC?route_receive_volunteer=xxxxx'} />
           <FAQSection title={'Travel?'}
             text={'Anyone from across the nation is welcome to  \
                    come! We will be providing buses for certain \
