@@ -23,6 +23,7 @@ import netapp from 'static/sponsors/netapp.png'
 import nicholas from 'static/sponsors/nicholas-school-environment.png'
 import cisco from 'static/sponsors/cisco.png'
 import particle from 'static/sponsors/particle.png'
+import stickermule from 'static/sponsors/stickermule.png'
 
 class SponsorsPage extends React.Component {
 
@@ -33,11 +34,11 @@ class SponsorsPage extends React.Component {
       'http://capitalone.com', 'http://facebook.com', 'http://infusion.com', 'http://mbacsi.com',
       'http://sqlsentry.com', 'http://engineyard.com', 'http://plaid.com', 'http://hackgt.com',
       'http://cs.duke.edu', 'http://epic.com', 'http://att.com', 'http://colab.duke.edu',
-      'http://cerner.com', 'http://netapp.com', 'https://nicholas.duke.edu', 'http://cisco.com',
+      'http://cerner.com', 'http://netapp.com', 'https://www.stickermule.com', 'http://cisco.com',
       'http://particle.io'],
       windowWidth: window.innerWidth,
       imageUrls: [ibm, google, yikyak, esri, capitalone, fb, infusion, mbacsi, sqlsentry, engineyard,
-      plaid, hackgt, cs, epic, att, colab, cerner, netapp, nicholas, cisco, particle],
+      plaid, hackgt, cs, epic, att, colab, cerner, netapp, stickermule, cisco, particle],
       sizes: [3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1],
       title: 'PAST SPONSORS',
       aboutText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed' +
