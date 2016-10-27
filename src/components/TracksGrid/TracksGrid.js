@@ -19,7 +19,7 @@ export const TracksGrid = () => (
                     everyone should have the capacity to reach their full potential.'} />
           </div>
           <div className={classes.leftTracksBox}>
-            <TracksBox track={"HEALTH & WELLNESS"}
+            <TracksBox track={'HEALTH & WELLNESS'}
               link={'http://hackduke.tumblr.com/tagged/health-&-wellness'}
               text={'The Healthcare track allows hackers to work with various \
                     kinds of health related data, as well as connect with mentors \
@@ -30,7 +30,7 @@ export const TracksGrid = () => (
         </Col>
         <Col sm={6} md={6} className={classes.rightColumn}>
           <div className={classes.rightTracksBox}>
-            <TracksBox track={"ENERGY & ENVIRONMENT"}
+            <TracksBox track={'ENERGY & ENVIRONMENT'}
               link={'http://hackduke.tumblr.com/tagged/energy-&-environment'}
               text={'The Energy and Environment track encompasses a technical perspective to \
                     deal with large issues impacting energy use, allocation and environmental \
@@ -38,7 +38,7 @@ export const TracksGrid = () => (
                     for resource extraction, the use of green energy and enforcing environmental policy.'} />
           </div>
           <div className={classes.rightTracksBox}>
-            <TracksBox track={"EDUCATION"}
+            <TracksBox track={'EDUCATION'}
               link={'http://hackduke.tumblr.com/tagged/education'}
               text={'The Education track teams hackers with educators, reaching out to \
                     all levels of subjects and skills. In addition to Education events \
