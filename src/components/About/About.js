@@ -22,7 +22,7 @@ export const About = () => (
                 Learn how your skills can be used to make a difference in other \
                 people\'s lives. Tracks enable members to collaborate while providing \
                 an alleyway to partnership with peers, local organizations, nonprofits \
-                and universities to continue working towards the cause.''} />
+                and universities to continue working towards the cause.'} />
       </div>
     </div>
   </div>
