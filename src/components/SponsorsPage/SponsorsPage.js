@@ -2,25 +2,21 @@ import React from 'react'
 import classes from './SponsorsPage.scss'
 import SponsorsItem from 'components/SponsorsItem'
 import { Row, Col } from 'react-bootstrap'
-import ibm from 'static/sponsors/ibm.png'
+import lifelock from 'static/sponsors/lifelock.png'
 import google from 'static/sponsors/google.png'
-import yikyak from 'static/sponsors/yik-yak.png'
+import coinbase from 'static/sponsors/coinbase.png'
 import esri from 'static/sponsors/esri.png'
-import capitalone from 'static/sponsors/capital-one.png'
+import zoho from 'static/sponsors/zoho.png'
 import fb from 'static/sponsors/fb.png'
-import infusion from 'static/sponsors/infusion.png'
-import mbacsi from 'static/sponsors/mbasci.jpg'
-import sqlsentry from 'static/sponsors/sql-sentry.jpg'
-import engineyard from 'static/sponsors/engine-yard.png'
-import plaid from 'static/sponsors/plaid.png'
-import hackgt from 'static/sponsors/hackgt.jpg'
+import microsoft from 'static/sponsors/microsoft.png'
+import optum from 'static/sponsors/optum.png'
+import appian from 'static/sponsors/appian.png'
+import pratt from 'static/sponsors/pratt.png'
+import twitter from 'static/sponsors/twitter.png'
 import cs from 'static/sponsors/cs.png'
-import epic from 'static/sponsors/epic.png'
-import att from 'static/sponsors/att-old.png'
+import qualtrics from 'static/sponsors/qualtrics.png'
 import colab from 'static/sponsors/colab.png'
 import cerner from 'static/sponsors/cerner.png'
-import netapp from 'static/sponsors/netapp.png'
-import cisco from 'static/sponsors/cisco.png'
 import particle from 'static/sponsors/particle.png'
 import stickermule from 'static/sponsors/stickermule.png'
 
@@ -29,17 +25,15 @@ class SponsorsPage extends React.Component {
   constructor () {
     super()
     this.state = {
-      sponsorsUrls: ['http://ibm.com', 'http://google.com', 'http://yikyak.com', 'http://esri.com',
-      'http://capitalone.com', 'http://facebook.com', 'http://infusion.com', 'http://mbacsi.com',
-      'http://sqlsentry.com', 'http://engineyard.com', 'http://plaid.com', 'http://hackgt.com',
-      'http://cs.duke.edu', 'http://epic.com', 'http://att.com', 'http://colab.duke.edu',
-      'http://cerner.com', 'http://netapp.com', 'https://www.stickermule.com', 'http://cisco.com',
-      'http://particle.io'],
+      sponsorsUrls: ['http://esri.com', 'http://facebook.com', 'http://lifelock.com', 'https://coinbase.com', 'https://zoho.com',
+      'http://microsoft.com', 'https://cerner.com', 'https://colab.duke.edu', 'https://optum.com', 'http://appian.com',
+      'http://pratt.duke.edu', 'https://twitter.com', 'https://cs.duke.edu', 'https://google.com', 'https://qualtrics.com/',
+      'https://stickermule.com/', 'https://particle.io/'],
       windowWidth: window.innerWidth,
-      imageUrls: [ibm, google, yikyak, esri, capitalone, fb, infusion, mbacsi, sqlsentry, engineyard,
-      plaid, hackgt, cs, epic, att, colab, cerner, netapp, stickermule, cisco, particle],
-      sizes: [3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1],
-      title: 'PAST SPONSORS',
+      imageUrls: [esri, fb, lifelock, coinbase, zoho, microsoft, cerner, colab, optum, appian, pratt,
+      twitter, cs, google, qualtrics, stickermule, particle],
+      sizes: [3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1],
+      title: 'SPONSORS',
       aboutText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed' +
                   'do eiusmod tempor incididunt ut labore et dolore magna aliqua',
       sponsorButtonText: 'Sponsor Us'
