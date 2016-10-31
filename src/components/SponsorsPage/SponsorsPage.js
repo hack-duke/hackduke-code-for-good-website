@@ -27,7 +27,7 @@ class SponsorsPage extends React.Component {
     this.state = {
       sponsorsUrls: ['http://esri.com', 'http://facebook.com', 'http://lifelock.com', 'https://coinbase.com', 'https://zoho.com',
       'http://microsoft.com', 'https://cerner.com', 'https://colab.duke.edu', 'https://optum.com', 'http://appian.com',
-      'http://pratt.duke.edu', 'https://twitter.com', 'https://cs.duke.edu', 'https://google.com', 'https://qualtrics.com/',
+      'http://pratt.duke.edu', 'https://twitter.com', 'https://www.cs.duke.edu', 'https://google.com', 'https://www.qualtrics.com/',
       'https://stickermule.com/', 'https://particle.io/'],
       windowWidth: window.innerWidth,
       imageUrls: [esri, fb, lifelock, coinbase, zoho, microsoft, cerner, colab, optum, appian, pratt,
