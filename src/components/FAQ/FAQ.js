@@ -45,11 +45,15 @@ export const FAQ = () => (
                    have lab space for hardware hackers.'} />
         </Col>
         <Col md={4}>
-          <FAQSection title={'How can I help? I want to volunteer!'}
-            beforeText={'If you want to help out day of, please fill out this'}
-            afterText={'You\'ll get a free Hack Kitty t-shirt. :D'}
-            linkText={'form!'}
-            link={'https://hackduke.typeform.com/to/e7BfyC?route_receive_volunteer=xxxxx'} />
+          <FAQSection title={'I want to volunteer or mentor! How can I help?'}
+            beforeText={'To help with logistics day of, sign up to '}
+            linkText={'volunteer'}
+            link={'https://hackduke.typeform.com/to/e7BfyC?route_receive_volunteer=xxxxx'}
+            middleText={'. If you\'re looking to mentor hackers with tech or track knowledge, come help out as a '}
+            linkText0={'mentor'}
+            link0={'https://hackduke.typeform.com/to/Q8EGmW?route_receive_mentor=xxxxx'}
+            afterText={'. Both mentors and volunteers will get a special HackDuke T-shirt!'} />
+
           <FAQSection title={'Travel?'}
             text={'Anyone from across the nation is welcome to  \
                    come! We will be providing buses for certain \
