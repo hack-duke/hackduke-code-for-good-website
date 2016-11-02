@@ -4,7 +4,7 @@ import classes from './SponsorsItem.scss'
 const determineSize = (size) => {
   switch (size) {
     case 3:
-      return {'maxWidth': '225px'}
+      return {'maxWidth': '225px', 'maxHeight': '150px'}
     case 2:
       return {'maxWidth': '150px'}
     case 1:
