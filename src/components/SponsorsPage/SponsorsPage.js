@@ -22,6 +22,7 @@ import stickermule from 'static/sponsors/stickermule.png'
 import dps from 'static/sponsors/dps.png'
 import dsg from 'static/sponsors/dsg.png'
 import acm from 'static/sponsors/acm.jpg'
+import consensys from 'static/sponsors/consensys.png'
 
 class SponsorsPage extends React.Component {
 
@@ -31,11 +32,12 @@ class SponsorsPage extends React.Component {
       sponsorsUrls: ['http://esri.com', 'http://www.dukestudentgovernment.com', 'http://facebook.com', 'http://lifelock.com', 'https://coinbase.com',
       'https://zoho.com', 'http://microsoft.com', 'https://cerner.com', 'https://colab.duke.edu', 'https://optum.com', 'http://appian.com',
       'http://pratt.duke.edu', 'https://twitter.com', 'https://www.cs.duke.edu', 'https://google.com', 'https://www.qualtrics.com/',
-      'http://dukepartnershipforservice.com/', 'https://sites.duke.edu/acmduke/', 'https://stickermule.com/', 'https://particle.io/'],
+      'http://dukepartnershipforservice.com/', 'https://sites.duke.edu/acmduke/', 'https://stickermule.com/', 'https://particle.io/',
+      'https://consensys.net/'],
       windowWidth: window.innerWidth,
       imageUrls: [esri, dsg, fb, lifelock, coinbase, zoho, microsoft, cerner, colab, optum, appian, pratt,
-      twitter, cs, google, qualtrics, dps, acm, stickermule, particle],
-      sizes: [3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1],
+      twitter, cs, google, qualtrics, dps, acm, stickermule, particle, consensys],
+      sizes: [3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1],
       title: 'SPONSORS',
       aboutText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed' +
                   'do eiusmod tempor incididunt ut labore et dolore magna aliqua',
