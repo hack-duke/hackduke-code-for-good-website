@@ -12,8 +12,8 @@ export const HeroPage = () => (
             <button className={classes.loginButton}> Login </button>
           </a>
           <a className={classes.applyLink}
-            href={'https://hackduke.typeform.com/to/pZb8zj?route_receive_participant=xxxxx'}>
-            <button className={classes.homeButton}> Apply Now </button>
+            href={'https://dayof.hackduke.org'}>
+            <button className={classes.homeButton}> Day Of Info </button>
           </a>
         </div>
       </div>
