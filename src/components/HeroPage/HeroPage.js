@@ -12,7 +12,7 @@ export const HeroPage = () => (
             <button className={classes.loginButton}> Login </button>
           </a>
           <a className={classes.applyLink}
-            href={'https://dayof.hackduke.org'}>
+            href={'https://landing.hackduke.org'}>
             <button className={classes.homeButton}> Day Of Info </button>
           </a>
         </div>
