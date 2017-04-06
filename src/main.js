@@ -43,7 +43,6 @@ const MOUNT_NODE = document.getElementById('root')
 let render = () => {
   const routes = require('./routes/index').default(store)
   const currRoute = store.getState().router.locationBeforeTransitions.pathname
-  console.log(currRoute)
   if (currRoute === '/ideate') {
     window.location.replace('https://ideate.hackduke.org')
   }
