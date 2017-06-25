@@ -38,7 +38,7 @@ class SponsorsPage extends React.Component {
       imageUrls: [esri, dsg, fb, lifelock, coinbase, zoho, microsoft, cerner, colab, optum, appian, pratt,
         twitter, cs, google, qualtrics, dps, acm, stickermule, particle, consensys],
       sizes: [3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1],
-      title: 'SPONSORS',
+      title: '2016 SPONSORS',
       aboutText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed' +
                   'do eiusmod tempor incididunt ut labore et dolore magna aliqua',
       sponsorButtonText: 'Sponsor Us'
