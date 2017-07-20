@@ -11,10 +11,9 @@ export const HeroPage = () => (
           <a className={classes.applyLink} eventKey={1} href={'http://my.hackduke.org/login'}>
             <button className={classes.loginButton}> Login </button>
           </a>
-          <a className={classes.applyLink}
-            href={'https://hackduke.typeform.com/to/pZb8zj?route_receive_participant=xxxxx'}>
-            <button className={classes.homeButton}> Apply Now </button>
-          </a>
+        </div>
+        <div>
+          <h6>Registration Coming Soon</h6>
         </div>
       </div>
     </div>
