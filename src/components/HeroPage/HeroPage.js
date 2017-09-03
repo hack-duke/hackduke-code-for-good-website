@@ -13,7 +13,7 @@ export const HeroPage = () => (
           </a>
         </div>
         <div>
-          <h6>Registration Coming Soon</h6>
+          <h6>Coming Next Week</h6>
         </div>
       </div>
     </div>
