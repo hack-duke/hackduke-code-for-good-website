@@ -16,9 +16,6 @@ export const HeroPage = () => (
             <button className={classes.homeButton}> Apply Now </button>
           </a>
         </div>
-        <div>
-          <h6>Coming Next Week</h6>
-        </div>
       </div>
     </div>
   </div>
