@@ -2,43 +2,23 @@ import React from 'react'
 import classes from './SponsorsPage.scss'
 import SponsorsItem from 'components/SponsorsItem'
 import { Row, Col } from 'react-bootstrap'
-import lifelock from 'static/sponsors/lifelock.png'
-import google from 'static/sponsors/google.png'
 import coinbase from 'static/sponsors/coinbase.png'
-import esri from 'static/sponsors/esri.png'
-import zoho from 'static/sponsors/zoho.png'
 import fb from 'static/sponsors/fb.png'
-import microsoft from 'static/sponsors/microsoft.png'
-import optum from 'static/sponsors/optum.png'
 import appian from 'static/sponsors/appian.png'
-import pratt from 'static/sponsors/pratt.png'
-import twitter from 'static/sponsors/twitter.png'
 import cs from 'static/sponsors/cs.png'
-import qualtrics from 'static/sponsors/qualtrics.png'
-import colab from 'static/sponsors/colab.png'
-import cerner from 'static/sponsors/cerner.png'
-import particle from 'static/sponsors/particle.png'
-import stickermule from 'static/sponsors/stickermule.png'
-import dps from 'static/sponsors/dps.png'
-import dsg from 'static/sponsors/dsg.png'
-import acm from 'static/sponsors/acm.jpg'
-import consensys from 'static/sponsors/consensys.png'
+import capital from 'static/sponsors/capital-one.png'
 
 class SponsorsPage extends React.Component {
 
   constructor () {
     super()
     this.state = {
-      sponsorsUrls: ['http://esri.com', 'http://www.dukestudentgovernment.com', 'http://facebook.com', 'http://lifelock.com', 'https://coinbase.com',
-        'https://zoho.com', 'http://microsoft.com', 'https://cerner.com', 'https://colab.duke.edu', 'https://optum.com', 'http://appian.com',
-        'http://pratt.duke.edu', 'https://twitter.com', 'https://www.cs.duke.edu', 'https://google.com', 'https://www.qualtrics.com/',
-        'http://dukepartnershipforservice.com/', 'https://sites.duke.edu/acmduke/', 'https://stickermule.com/', 'https://particle.io/',
-        'https://consensys.net/'],
+      sponsorsUrls: ['http://facebook.com', 'https://coinbase.com', 'http://appian.com',
+        'https://www.cs.duke.edu', 'https://www.capitalone.com/'],
       windowWidth: window.innerWidth,
-      imageUrls: [esri, dsg, fb, lifelock, coinbase, zoho, microsoft, cerner, colab, optum, appian, pratt,
-        twitter, cs, google, qualtrics, dps, acm, stickermule, particle, consensys],
-      sizes: [3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1],
-      title: '2016 SPONSORS',
+      imageUrls: [fb, coinbase, appian, cs, capital],
+      sizes: [3, 3, 3, 3, 3],
+      title: '2017 SPONSORS',
       aboutText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed' +
                   'do eiusmod tempor incididunt ut labore et dolore magna aliqua',
       sponsorButtonText: 'Sponsor Us'
