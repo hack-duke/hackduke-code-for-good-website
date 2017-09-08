@@ -62,11 +62,11 @@ class SponsorsPage extends React.Component {
             return (
               <div>
                 <SponsorsItem key={index}
-                imageUrl={url}
-                sponsorUrl={this.state.sponsorsUrls[index]}
-                size={this.state.sizes[index]} />
+                  imageUrl={url}
+                  sponsorUrl={this.state.sponsorsUrls[index]}
+                  size={this.state.sizes[index]} />
               </div>
-            );
+            )
           }
         })}
       </Col>
