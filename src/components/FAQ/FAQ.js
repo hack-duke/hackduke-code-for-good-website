@@ -21,9 +21,9 @@ export const FAQ = () => (
                   each track, novice track and many other  \
                   company sponsored API prizes as well.'} />
           <FAQSection title={'When? Where?'}
-            text={'HackDuke starts Saturday, November 19th at 10:00 AM EST and ends on   \
-                  Sunday, November 20th at 5:30 PM EST. It is hosted on Duke   \
-                  University\'s West Campus, 305 Teer Engineering Building, Durham, NC 27708.'} />
+            text={'HackDuke starts Saturday, October 28th at 10:00 AM EST and ends on   \
+                  Sunday, October 29th at 5:30 PM EST. It is hosted on Duke   \
+                  University\'s West Campus, Fitzpatrick Engineering Building, Durham, NC 27705.'} />
           <FAQSection title={'Who can participate?'}
             text={'You can participate as long as you\'re a student   \
                   (undergraduate or graduate)! If you\'re a new   \

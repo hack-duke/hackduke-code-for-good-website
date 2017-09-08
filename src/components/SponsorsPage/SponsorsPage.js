@@ -59,10 +59,14 @@ class SponsorsPage extends React.Component {
       <Col xs={12 / divisor} key={mod}>
         {this.state.imageUrls.map((url, index) => {
           if (index % divisor === mod) {
-            return <SponsorsItem key={index}
-              imageUrl={url}
-              sponsorUrl={this.state.sponsorsUrls[index]}
-              size={this.state.sizes[index]} />
+            return (
+              <div>
+                <SponsorsItem key={index}
+                imageUrl={url}
+                sponsorUrl={this.state.sponsorsUrls[index]}
+                size={this.state.sizes[index]} />
+              </div>
+            );
           }
         })}
       </Col>
