@@ -23,7 +23,7 @@ export const FAQ = () => (
           <FAQSection title={'When? Where?'}
             text={'HackDuke starts Saturday, October 28th at 10:00 AM EST and ends on   \
                   Sunday, October 29th at 5:30 PM EST. It is hosted on Duke   \
-                  University\'s West Campus, Fitzpatrick Engineering Building, Durham, NC 27705.'} />
+                  University\'s West Campus, in and around the Fitzpatrick Engineering Building, Durham, NC 27705.'} />
           <FAQSection title={'Who can participate?'}
             text={'You can participate as long as you\'re a student   \
                   (undergraduate or graduate)! If you\'re a new   \
