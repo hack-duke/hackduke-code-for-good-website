@@ -7,6 +7,7 @@ import fb from 'static/sponsors/fb.png'
 import appian from 'static/sponsors/appian.png'
 import cs from 'static/sponsors/cs.png'
 import capital from 'static/sponsors/capital-one.png'
+import scimed from 'static/sponsors/scimed.png'
 
 class SponsorsPage extends React.Component {
 
@@ -14,10 +15,10 @@ class SponsorsPage extends React.Component {
     super()
     this.state = {
       sponsorsUrls: ['http://facebook.com', 'https://coinbase.com', 'http://appian.com',
-        'https://www.cs.duke.edu', 'https://www.capitalone.com/'],
+        'https://www.cs.duke.edu', 'https://www.capitalone.com/', 'http://www.scimedsolutions.com/'],
       windowWidth: window.innerWidth,
-      imageUrls: [fb, coinbase, appian, cs, capital],
-      sizes: [3, 3, 3, 3, 3],
+      imageUrls: [fb, coinbase, appian, cs, capital, scimed],
+      sizes: [3, 3, 3, 3, 3, 3],
       title: '2017 SPONSORS',
       aboutText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed' +
                   'do eiusmod tempor incididunt ut labore et dolore magna aliqua',
