@@ -15,7 +15,7 @@ class SponsorsPage extends React.Component {
     super()
     this.state = {
       sponsorsUrls: ['http://facebook.com', 'https://coinbase.com', 'http://appian.com',
-        'https://www.cs.duke.edu', 'https://www.capitalone.com/', 'http://www.scimedsolutions.com/'],
+        'https://www.cs.duke.edu', 'https://campus.capitalone.com/', 'http://www.scimedsolutions.com/'],
       windowWidth: window.innerWidth,
       imageUrls: [fb, coinbase, appian, cs, capital, scimed],
       sizes: [3, 3, 3, 3, 3, 3],
