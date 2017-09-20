@@ -10,17 +10,20 @@ import capital from 'static/sponsors/capital-one.png'
 import scimed from 'static/sponsors/scimed.png'
 import avalara from 'static/sponsors/avalara.svg'
 import blank from 'static/sponsors/blank.png'
+import smartcar from 'static/sponsors/smartcar.png'
+import pratt from 'static/sponsors/pratt.png'
+import fuqua from 'static/sponsors/fuqua.png'
 
 class SponsorsPage extends React.Component {
-
   constructor () {
     super()
     this.state = {
-      sponsorsUrls: ['http://facebook.com', 'https://coinbase.com', 'http://appian.com',
-        'https://www.cs.duke.edu', 'https://campus.capitalone.com/', 'http://www.scimedsolutions.com/', '', 'https://www.avalara.com/', ''],
+      sponsorsUrls: ['http://pratt.duke.edu/', 'https://coinbase.com', 'http://appian.com', 'https://campus.capitalone.com/',
+        'http://www.scimedsolutions.com/', 'https://www.avalara.com/', 'http://facebook.com', 'http://www.fuqua.duke.edu/',
+        'https://www.cs.duke.edu', '', '', ''],
       windowWidth: window.innerWidth,
-      imageUrls: [fb, coinbase, appian, cs, capital, scimed, blank, avalara, blank],
-      sizes: [3, 3, 3, 3, 3, 3, 3, 3, 3],
+      imageUrls: [pratt, coinbase, appian, capital, scimed, avalara, fb, fuqua, cs, blank, smartcar, blank],
+      sizes: [3, 3, 3, 3, 3, 3, 3, 1, 3, 3, 3, 3],
       title: '2017 SPONSORS',
       aboutText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed' +
                   'do eiusmod tempor incididunt ut labore et dolore magna aliqua',
