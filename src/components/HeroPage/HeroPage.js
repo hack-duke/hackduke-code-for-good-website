@@ -6,7 +6,7 @@ export const HeroPage = () => (
     <div className={classes.hero}>
       <div className={classes.mainText}>
         <img src='hackduke-logo.png' alt='Hackduke Logo' />
-        <h6>October 28-29, 2017</h6>
+        <h6>October 28-29, 2017 <br />Registration Closes Oct 7</h6>
         <div className={classes.buttonDiv}>
           <a className={classes.applyLink} eventKey={1} href={'http://my.hackduke.org/login'}>
             <button className={classes.loginButton}> Login </button>
