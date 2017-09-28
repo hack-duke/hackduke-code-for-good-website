@@ -14,6 +14,7 @@ import smartcar from 'static/sponsors/smartcar.png'
 import pratt from 'static/sponsors/pratt.png'
 import fuqua from 'static/sponsors/fuqua.png'
 import optum from 'static/sponsors/optum.png'
+import zoho from 'static/sponsors/zoho.png'
 
 class SponsorsPage extends React.Component {
   constructor () {
@@ -21,9 +22,9 @@ class SponsorsPage extends React.Component {
     this.state = {
       sponsorsUrls: ['http://pratt.duke.edu/', 'https://coinbase.com', 'http://appian.com', 'https://campus.capitalone.com/',
         'http://www.scimedsolutions.com/', 'https://www.avalara.com/', 'http://facebook.com', 'http://www.fuqua.duke.edu/',
-        'https://www.cs.duke.edu', 'https://www.optum.com/', '', 'https://smartcar.com/'],
+        'https://www.cs.duke.edu', 'https://www.optum.com/', 'https://www.zoho.com/', 'https://smartcar.com/'],
       windowWidth: window.innerWidth,
-      imageUrls: [pratt, coinbase, appian, capital, scimed, avalara, fb, fuqua, cs, optum, blank, smartcar],
+      imageUrls: [pratt, coinbase, appian, capital, scimed, avalara, fb, fuqua, cs, optum, zoho, smartcar],
       sizes: [3, 3, 3, 3, 3, 3, 3, 1, 3, 3, 3, 3],
       title: '2017 SPONSORS',
       aboutText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed' +
