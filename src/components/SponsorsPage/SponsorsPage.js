@@ -19,6 +19,7 @@ import microsoft from 'static/sponsors/microsoft.png'
 import space from 'static/sponsors/space.png'
 import consensys from 'static/sponsors/consensys.png'
 import blank from 'static/sponsors/blank.png'
+import github from 'static/sponsors/github.png'
 
 class SponsorsPage extends React.Component {
   constructor () {
@@ -28,10 +29,10 @@ class SponsorsPage extends React.Component {
         'http://www.scimedsolutions.com/', 'https://www.avalara.com/', 'http://facebook.com', 'http://www.fuqua.duke.edu/',
         'https://www.cs.duke.edu', 'https://www.optum.com/', 'https://www.zoho.com/', 'https://smartcar.com/',
         'https://www.microsoft.com/en-us/home/beta_a.html', 'https://get.space/', 'https://www.google.com/',
-        '', '', ''],
+        'https://github.com/', '', 'https://consensys.net/'],
       windowWidth: window.innerWidth,
-      imageUrls: [pratt, coinbase, appian, capital, scimed, avalara, fb, fuqua, cs, optum, zoho, smartcar, microsoft, space, google, blank, consensys, blank],
-      sizes: [3, 3, 3, 3, 3, 3, 3, 1, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3],
+      imageUrls: [pratt, coinbase, appian, capital, scimed, avalara, fb, fuqua, cs, optum, zoho, smartcar, microsoft, space, google, github, blank, consensys],
+      sizes: [3, 3, 3, 3, 3, 3, 3, 1, 3, 3, 3, 3, 3, 2, 3, 2, 3, 3],
       title: '2017 SPONSORS',
       aboutText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed' +
                   'do eiusmod tempor incididunt ut labore et dolore magna aliqua',
