@@ -5,7 +5,7 @@ export const HeroPage = () => (
   <div>
     <div className={classes.hero}>
       <div className={classes.mainText}>
-        // <img src='hackduke-logo.png' alt='Hackduke Logo' />
+        // <img src='./images/HOME.png' alt='Hackduke HomePage' />
         <h6> 2018 Event Oct 13-14 </h6>
       </div>
     </div>

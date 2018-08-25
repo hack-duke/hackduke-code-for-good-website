@@ -5,9 +5,7 @@ import AboutSection from 'components/AboutSection'
 export const About = () => (
   <div>
     <div className={classes.about} >
-      <div className={'container text-center'}>
-        <img src = "./images/About.png"></img>
-      </div>
+      // <img src='./images/About.png' alt='Hackduke About' />
     </div>
   </div>
 )
