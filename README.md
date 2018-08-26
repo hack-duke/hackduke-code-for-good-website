@@ -14,7 +14,7 @@ First, clone this repo onto your computer (either by downloading and extracting 
 
 ```bash
 $ npm install                   # Install project dependencies
-$ npm start                     # Compile and launch
+$ npm run dev                     # Compile and launch
 ```
 If everything works, you should see the following:
 
